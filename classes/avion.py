@@ -6,10 +6,10 @@ class Avion(Vehicule):
         super().__init__(nbPortes, nbRoues)
 
     def demarrer(self):
-        print("L'avion démarre.")
+        print("L'avion démarre lentement...")
 
     def avancer(self):
-        print("L'avion avance.")
+        print("L'avion avance comme un escargot...")
 
     def reculer(self):
-        print("L'avion recule.")
+        print("L'avion recule et se prend un poteau !")
