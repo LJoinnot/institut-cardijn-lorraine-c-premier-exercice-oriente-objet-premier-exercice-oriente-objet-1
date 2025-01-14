@@ -8,7 +8,7 @@ class Bateau(Vehicule):
 
     def demarrer(self):
         if self.ancre:
-            print("Il faut d'abord lever l'ancre.")
+            print("Il faut d'abord lever l'ancre. PROUT")
         else:
             print("Le bateau démarre.")
 
